@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import { Home } from './pages/Home'
-import { Carrinho } from './pages/Carrinho'
+import Home from './pages/Home'
+import Carrinho from './pages/Carrinho'
 import { DefaultLayout } from './layouts/DefaultLayout'
 
 export function Router() {
