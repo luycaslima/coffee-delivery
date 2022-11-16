@@ -10,7 +10,8 @@ export const HeaderContainer = styled.header`
   top: 0;
   position: fixed;
   z-index: 1;
-  backdrop-filter: blur(15px);
+  background: ${(props) => props.theme.background};
+  /* backdrop-filter: blur(15px); */
   width: 100%;
 
   nav {

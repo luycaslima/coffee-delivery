@@ -10,9 +10,12 @@ import {
   IntroTextContainer,
 } from './styles'
 
-export function Intro() {
+export default function Intro() {
   return (
     <IntroContainer>
+      <BackgroundContainer>
+        <img src={Background} alt="backgound'effect" />
+      </BackgroundContainer>
       <IntroTextContainer>
         <h1>Encontre o café perfeito para qualquer hora do dia</h1>
         <span>
@@ -57,9 +60,6 @@ export function Intro() {
         </table>
       </IntroTextContainer>
       <img src={CoffeeLogo} alt="coffee logo" />
-      <BackgroundContainer>
-        <img src={Background} alt="backgound'effect" />
-      </BackgroundContainer>
     </IntroContainer>
   )
 }

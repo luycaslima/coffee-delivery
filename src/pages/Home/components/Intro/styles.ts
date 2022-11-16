@@ -5,12 +5,9 @@ export const IntroContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(160px);
-
-  width: 100%;
-  margin: auto;
+  margin: 0 10rem;
   gap: 4rem;
-  padding: 5.75rem 10rem;
+  padding: 5.75rem 0;
 `
 
 export const IntroTextContainer = styled.div`
@@ -34,4 +31,5 @@ export const BackgroundContainer = styled.div`
   overflow: hidden;
   filter: blur(30px);
   width: 100%;
+  z-index: -1;
 `
