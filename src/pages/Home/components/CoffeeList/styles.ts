@@ -3,9 +3,8 @@ import styled from 'styled-components'
 export const CoffeeContainer = styled.section`
   margin: auto;
   width: 100%;
-  @media only screen and (min-width: 880px) {
-    padding: 2rem 10rem;
-  }
+
+  padding: 2rem 10rem;
 
   h2 {
     font-size: 2rem;
